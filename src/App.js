@@ -6,10 +6,12 @@ function App() {
   
   return (
     <div>
-      <DrawerBar> <NewsContainer></NewsContainer> </DrawerBar>
+     
       <Router>
         <Switch>
-          <Route exact path="/"></Route>
+          <Route exact path="/">
+          <DrawerBar> <NewsContainer></NewsContainer> </DrawerBar>
+          </Route>
         </Switch>
       </Router>
     </div>
